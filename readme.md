@@ -6,7 +6,7 @@ This repository contains a 3D underwater visualization app built with React and 
 
 To clone the repository, use the following command:
 
-git clone https://github.com/[your username]/[repository name].git
+git clone https://github.com/Fizioh/seabed3d.git
 
 
 ## Launching the React Project
