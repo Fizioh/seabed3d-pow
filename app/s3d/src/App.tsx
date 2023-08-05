@@ -2,15 +2,19 @@ import React from 'react';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import CesiumViewer from './components/CesiumViewer';
+import CesiumMap from './components/CesiumMap'
+import MapWithBathymetry from './components/MapWithBathymetry';
+import Box from '@mui/material/Box'
 
 const App: React.FC = () => {
   return (
-    <div>
+    <Box>
       <Header />
       <HeroSection />
-      <CesiumViewer />
-      {/* Autres composants et sections */}
-    </div>
+      <MapWithBathymetry />
+       {/*<CesiumViewer />
+      Autres composants et sections */}
+    </Box>
   );
 };
 
